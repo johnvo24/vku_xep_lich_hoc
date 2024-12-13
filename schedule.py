@@ -32,5 +32,6 @@ class Schedule:
         return True
     
     def printSchedule(self):
+        # print(self.table)
         for subject in self.subjects:
             print(subject.getSubject())

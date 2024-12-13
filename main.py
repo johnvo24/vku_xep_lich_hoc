@@ -5,6 +5,7 @@ from PyQt5 import QtWidgets
 from ui import Ui_Form
 from functools import partial
 from itertools import product
+import pandas as pd
 
 class Main:
     def __init__(self):
@@ -22,19 +23,20 @@ class Main:
         self.subject_list["CC"].append(Subject(2, "CC", 5, 1, 4, "Nguyễn Văn Bình"))
 
     def buildSchedules(self):
-        # self.schedule_list = []
-        array_values = list(self.subject_list.values())
-        # Sử dụng itertools.product để tạo ra tất cả các kết hợp
-        all_combinations = list(product(*array_values))
-        # In ra các bộ 3 phần tử từ mỗi khóa
+        # Sử dụng itertools.product trực tiếp thay vì list() để tiết kiệm bộ nhớ
+        all_combinations = product(*self.subject_list.values())
         for combination in all_combinations:
-            schedule = Schedule(True)
-            isFeasible = True
+            schedule = Schedule(True)  # Khởi tạo lịch mới cho mỗi tổ hợp
+            isFeasible = True  # Biến kiểm tra tính khả thi của lịch học
+
+            # Kiểm tra tính khả thi của mỗi môn học trong tổ hợp
             for subject in combination:
-                if not schedule.addSubject(subject):
-                    isFeasible = False
-                    break
-            if isFeasible: self.schedule_list.append((schedule, schedule.getSchedlePoint()))
+                if not schedule.addSubject(subject):  # Nếu không thể thêm môn học
+                    isFeasible = False  # Đánh dấu là không khả thi
+                    break  # Dừng kiểm tra các môn học còn lại
+            # Nếu tất cả các môn học trong tổ hợp có thể thêm được vào lịch học, thêm vào danh sách
+            if isFeasible:
+                self.schedule_list.append((schedule, schedule.getSchedlePoint()))
 
     def printSchedles(self):
         print(f"> SCHEDULE RANK ==================================================")
@@ -54,31 +56,94 @@ def setUpEvent(ui: Ui_Form, main: Main):
     ui.btnPrintSchedules.clicked.connect(partial(printSchedules, main))
 
 def addSubject(ui: Ui_Form, main: Main):
-    subject = Subject(int(ui.inputGroup.text()), 
-                      ui.inputSubjectName.text(), 
-                      int(ui.inputDay.text()), 
-                      int(ui.inputPeriodFrom.text()), 
-                      int(ui.inputPeriodTo.text()), 
-                      ui.inputLecturer.text())
-    subject_name = ui.inputSubjectName.text()
-    if subject_name not in main.subject_list:
-        main.subject_list[subject_name] = []
-    main.subject_list[subject_name].append(subject)
-    print("Added Subject[" + subject.getSubject() + "] ")
-    print("--------" + str(len(main.subject_list)))
+    if (not ui.inputDay.text()
+        or not ui.inputSubjectName.text() 
+        or not ui.inputDay.text()
+        or not ui.inputPeriodFrom.text() 
+        or not ui.inputPeriodTo.text() 
+        or not ui.inputLecturer.text()):
+        if (not ui.inputDay.text()
+            and not ui.inputSubjectName.text() 
+            and not ui.inputDay.text()
+            and not ui.inputPeriodFrom.text() 
+            and not ui.inputPeriodTo.text() 
+            and not ui.inputLecturer.text()):
+                addSubjectFromCSV(main)
+        else:
+            print(f"[JV] No change")
+            return
+    else:
+        subject = Subject(int(ui.inputGroup.text()), 
+                        ui.inputSubjectName.text(), 
+                        int(ui.inputDay.text()), 
+                        int(ui.inputPeriodFrom.text()), 
+                        int(ui.inputPeriodTo.text()), 
+                        ui.inputLecturer.text())
+        subject_name = ui.inputSubjectName.text()
+        if subject_name not in main.subject_list:
+            main.subject_list[subject_name] = []
+        main.subject_list[subject_name].append(subject)
+        print("Added Subject[" + subject.getSubject() + "] ")
+        print("--------" + str(len(main.subject_list)))
+def addSubjectFromCSV(main: Main, csv_file: str='data.csv'):
+    try:
+        data = pd.read_csv(csv_file)
+    except Exception as e:
+        print(f"[JV] ERROR")
+        return            
+    for _, row in data.iterrows():
+        try:
+            subject = Subject(
+                int(row['Group']),
+                row['SubjectName'],
+                int(row['Day']),
+                int(row['PeriodFrom']),
+                int(row['PeriodTo']),
+                row['Lecturer']
+            )
+            subject_name = row['SubjectName']
+            if subject_name not in main.subject_list:
+                main.subject_list[subject_name] = []
+            main.subject_list[subject_name].append(subject)
+            print(f"Added Subject[{subject.getSubject()}]")
+        except Exception as e:
+            print(f"Error adding subject from row {row}: {e}")
+
+    # print(main.subject_list)
+    print(f"Total subjects added: {len(main.subject_list)}")
+
 def printSchedules(main: Main):
     main.buildSchedules()
     main.printSchedles()
 
-
 if __name__ == "__main__":
     main = Main()
-    app = QtWidgets.QApplication(sys.argv)
-    Form = QtWidgets.QWidget()
+    # app = QtWidgets.QApplication(sys.argv)
+    # Form = QtWidgets.QWidget()
 
-    ui = Ui_Form()
-    ui.setupUi(Form)
-    setUpEvent(ui, main)
+    # ui = Ui_Form()
+    # ui.setupUi(Form)
+    # setUpEvent(ui, main)
 
-    Form.show()
-    sys.exit(app.exec_())
+    # Form.show()
+    # sys.exit(app.exec_())
+
+    ## No UI
+    while True:
+        print("MENU")
+        print("1. Add subjects from data.csv")
+        print("2. Print Schedules")
+        print("3. Quit")
+        choice = input("Your choice: ")
+        
+        if choice == "1":
+            print(f"You chosen {choice}")
+            addSubjectFromCSV(main)
+        if choice == "2":
+            print(f"You chosen {choice}")
+            main.buildSchedules()
+            main.printSchedles()
+        if choice == "3":
+            break
+        else:
+            continue
