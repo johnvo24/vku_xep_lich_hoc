@@ -1,90 +1,106 @@
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 2 (3->4) - LSD  (2) - ThS Nguyễn Thị Mai 
+ SCHEDULE RANK ==================================================
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CNXHKH  (6) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 4 (3->4) - CD4-SE_Blockchain   (4) - ThS Trương Quốc Tuấn
+   Thứ 4 (8->9) - LSD  (8) - ThS Nguyễn Thị Mai 
+   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
+   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CNXHKH  (6) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 4 (3->4) - CD4-SE_Blockchain   (4) - ThS Trương Quốc Tuấn
+   Thứ 4 (6->7) - LSD  (9) - ThS Nguyễn Thị Mai 
+   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
+   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CNXHKH  (6) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 4 (3->4) - CD4-SE_Blockchain   (4) - ThS Trương Quốc Tuấn
+   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
+   Thứ 5 (8->9) - LSD  (10) - ThS Nguyễn Thị Mai
+   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CNXHKH  (6) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 4 (3->4) - CD4-SE_Blockchain   (4) - ThS Trương Quốc Tuấn
+   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
+   Thứ 5 (6->7) - LSD  (11) - ThS Nguyễn Thị Mai
+   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CNXHKH  (6) - ThS Nguyễn Thị Mỹ Hạnh
    Thứ 4 (3->4) - CD4-SE_Blockchain   (4) - ThS Trương Quốc Tuấn
    Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
    Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 2 (3->4) - LSD  (2) - ThS Nguyễn Thị Mai 
-   Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
+   Thứ 6 (8->9) - LSD  (16) - ThS Nguyễn Thị Mai
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CNXHKH  (6) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 4 (3->4) - CD4-SE_Blockchain   (4) - ThS Trương Quốc Tuấn
    Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
    Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 6 (6->7) - LSD  (17) - ThS Nguyễn Thị Mai
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
+   Thứ 4 (3->4) - CNXHKH  (7) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 4 (8->9) - LSD  (8) - ThS Nguyễn Thị Mai 
+   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
+   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
+   Thứ 4 (3->4) - CNXHKH  (7) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 4 (6->7) - LSD  (9) - ThS Nguyễn Thị Mai 
+   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
+   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
+   Thứ 4 (3->4) - CNXHKH  (7) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
+   Thứ 5 (8->9) - LSD  (10) - ThS Nguyễn Thị Mai
+   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
+   Thứ 4 (3->4) - CNXHKH  (7) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
+   Thứ 5 (6->7) - LSD  (11) - ThS Nguyễn Thị Mai
+   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
+   Thứ 4 (3->4) - CNXHKH  (7) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
+   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
+   Thứ 6 (8->9) - LSD  (16) - ThS Nguyễn Thị Mai
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
+   Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
+   Thứ 4 (3->4) - CNXHKH  (7) - ThS Nguyễn Thị Mỹ Hạnh
+   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
+   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
+   Thứ 6 (6->7) - LSD  (17) - ThS Nguyễn Thị Mai
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
    Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
    Thứ 4 (3->4) - LSD  (6) - ThS Nguyễn Thị Mai 
+   Thứ 4 (6->7) - CNXHKH  (8) - ThS Nguyễn Thị Mỹ Hạnh
    Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
    Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
    Thứ 4 (1->2) - LSD  (7) - ThS Nguyễn Thị Mai 
    Thứ 4 (3->4) - CD4-SE_Blockchain   (4) - ThS Trương Quốc Tuấn
+   Thứ 4 (6->7) - CNXHKH  (8) - ThS Nguyễn Thị Mỹ Hạnh
    Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
    Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 3 (3->4) - LSD  (14) - ThS Nguyễn Thị Mai
-   Thứ 4 (3->4) - CD4-SE_Blockchain   (4) - ThS Trương Quốc Tuấn
-   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
-   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 3 (3->4) - LSD  (14) - ThS Nguyễn Thị Mai
-   Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
-   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
-   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 3 (1->2) - LSD  (15) - ThS Nguyễn Thị Mai
-   Thứ 4 (3->4) - CD4-SE_Blockchain   (4) - ThS Trương Quốc Tuấn
-   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
-   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 3 (1->2) - LSD  (15) - ThS Nguyễn Thị Mai
-   Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
-   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
-   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 2 (3->4) - LSD  (2) - ThS Nguyễn Thị Mai 
-   Thứ 3 (1->3) - BMHTTT  (5) -  TS Hoàng Hữu Đức 
-   Thứ 4 (3->4) - CD4-SE_Blockchain   (4) - ThS Trương Quốc Tuấn
-   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 2 (3->4) - LSD  (2) - ThS Nguyễn Thị Mai 
-   Thứ 3 (1->3) - BMHTTT  (5) -  TS Hoàng Hữu Đức 
-   Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
-   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 2 (3->4) - LSD  (2) - ThS Nguyễn Thị Mai 
-   Thứ 3 (1->3) - BMHTTT  (5) -  TS Hoàng Hữu Đức 
-   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
-   Thứ 6 (3->4) - CD4-SE_Blockchain   (6) - ThS Trương Quốc Tuấn
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 2 (3->4) - LSD  (2) - ThS Nguyễn Thị Mai 
-   Thứ 3 (1->3) - BMHTTT  (5) -  TS Hoàng Hữu Đức 
-   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
-   Thứ 6 (1->2) - CD4-SE_Blockchain   (7) - ThS Trương Quốc Tuấn 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 3 (1->3) - BMHTTT  (5) -  TS Hoàng Hữu Đức 
+> POINT: 30 -----------------------------
+   Thứ 3 (1->4) -  HS (5) -  Trang
    Thứ 4 (1->2) - CD4-SE_Blockchain   (5) - ThS Trương Quốc Tuấn 
    Thứ 4 (3->4) - LSD  (6) - ThS Nguyễn Thị Mai 
+   Thứ 4 (8->9) - CNXHKH  (9) - ThS Nguyễn Thị Mỹ Hạnh
    Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 3 (1->3) - BMHTTT  (5) -  TS Hoàng Hữu Đức 
-   Thứ 4 (3->4) - LSD  (6) - ThS Nguyễn Thị Mai 
-   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
-   Thứ 6 (3->4) - CD4-SE_Blockchain   (6) - ThS Trương Quốc Tuấn
-> POINT: 24 -----------------------------
-   Thứ 2 (1->2) - CNXHKH  (2) - ThS Nguyễn Thị Mỹ Hạnh
-   Thứ 3 (1->3) - BMHTTT  (5) -  TS Hoàng Hữu Đức 
-   Thứ 4 (3->4) - LSD  (6) - ThS Nguyễn Thị Mai 
-   Thứ 5 (1->3) - DTDM  (6) - TS Đặng Quang Hiển 
-   Thứ 6 (1->2) - CD4-SE_Blockchain   (7) - ThS Trương Quốc Tuấn
+   Thứ 6 (1->3) - BMHTTT  (3) -  ThS Ninh Khánh Chi

@@ -1,49 +1,10 @@
 Group,SubjectName,Day,PeriodFrom,PeriodTo,Lecturer
-2,CNXHKH ,2,1,2,ThS Nguyễn Thị Mỹ Hạnh
-3,CNXHKH ,2,3,4,ThS Nguyễn Thị Mỹ Hạnh
-4,CNXHKH ,2,6,7,ThS Nguyễn Thị Mỹ Hạnh
-5,CNXHKH ,2,8,9,ThS Nguyễn Thị Mỹ Hạnh
-6,CNXHKH ,4,1,2,ThS Nguyễn Thị Mỹ Hạnh
 7,CNXHKH ,4,3,4,ThS Nguyễn Thị Mỹ Hạnh
-8,CNXHKH ,4,6,7,ThS Nguyễn Thị Mỹ Hạnh
-9,CNXHKH ,4,8,9,ThS Nguyễn Thị Mỹ Hạnh
-10,CNXHKH ,5,6,7,    ThS Lương Xuân Thành
-11,CNXHKH ,5,8,9,  ThS Lương Xuân Thành  
-13,CNXHKH ,5,3,4,    ThS Lương Xuân Thành
-14,CNXHKH ,6,1,2,  ThS Nguyễn Thị Mỹ Hạnh
-15,CNXHKH ,6,3,4,  ThS Nguyễn Thị Mỹ Hạnh
-16,CNXHKH ,6,6,7,  ThS Lương Xuân Thành 
-17,CNXHKH ,6,8,9,  ThS Lương Xuân Thành 
-2,BMHTTT ,2,6,8,   TS Đặng Quang Hiển 
-3,BMHTTT ,6,1,3, ThS Ninh Khánh Chi 
-4,BMHTTT ,6,6,8, ThS Ninh Khánh Chi 
-5,BMHTTT ,3,1,3, TS Hoàng Hữu Đức 
-6,BMHTTT ,3,6,8, TS Hoàng Hữu Đức 
-7,BMHTTT ,4,6,8, TS Hoàng Hữu Đức 
-8,BMHTTT ,3,6,8,   ThS Trần Thanh Liêm 
-3,DTDM ,4,6,8,TS Nguyễn Hà Huy Cường 
-4,DTDM ,2,1,3,TS Đặng Quang Hiển 
-5,DTDM ,6,6,8,TS Đặng Quang Hiển 
-6,DTDM ,5,1,3,TS Đặng Quang Hiển 
+4,BMHTTT ,6,6,8, ThS Ninh Khánh Chi
 7,DTDM ,5,6,8,TS Đặng Quang Hiển 
-8,DTDM ,3,6,8,TS Đặng Quang Hiển 
-2,LSD ,2,3,4,ThS Nguyễn Thị Mai 
-3,LSD ,2,1,2,ThS Nguyễn Thị Mai 
-4,LSD ,2,8,9,ThS Nguyễn Thị Mai 
-5,LSD ,2,6,7,ThS Nguyễn Thị Mai 
-6,LSD ,4,3,4,ThS Nguyễn Thị Mai 
-7,LSD ,4,1,2,ThS Nguyễn Thị Mai 
-8,LSD ,4,8,9,ThS Nguyễn Thị Mai 
 9,LSD ,4,6,7,ThS Nguyễn Thị Mai 
-10,LSD ,5,8,9,ThS Nguyễn Thị Mai
-11,LSD ,5,6,7,ThS Nguyễn Thị Mai
-12,LSD ,5,3,4,ThS Nguyễn Thị Mai
-13,LSD ,5,1,2,ThS Nguyễn Thị Mai
-14,LSD ,3,3,4,ThS Nguyễn Thị Mai
-15,LSD ,3,1,2,ThS Nguyễn Thị Mai
-16,LSD ,6,8,9,ThS Nguyễn Thị Mai
-17,LSD ,6,6,7,ThS Nguyễn Thị Mai
 4,CD4-SE_Blockchain  ,4,3,4,ThS Trương Quốc Tuấn
 5,CD4-SE_Blockchain  ,4,1,2,ThS Trương Quốc Tuấn 
 6,CD4-SE_Blockchain  ,6,3,4,ThS Trương Quốc Tuấn
-7,CD4-SE_Blockchain  ,6,1,2,ThS Trương Quốc Tuấn 
+7,CD4-SE_Blockchain  ,6,1,2,ThS Trương Quốc Tuấn
+5, HS, 3, 1, 4, Trang
